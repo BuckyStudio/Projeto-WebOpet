@@ -1,0 +1,51 @@
+
+/*se acham que alguma coisa pode mudar doque eu fiz aqui ou no html ficam avontade so avisa o grupo pra todo
+mundo tar na mesma pagina -Gabriel J*/
+header{
+    height: 100px;
+    width: 1330px;
+    
+    display: flex;
+    
+    
+}
+.navtamanho{
+    background-color: red;
+    height: 30px;
+    width: 1330px;
+    border-style: solid;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+}
+.logotamanho{
+    height:100px;
+    width: 100px;
+}
+.nomecomp{
+    height: 100px;
+    width: 900px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 60px;
+    padding-top: 20px;
+}
+.center {
+    text-align: center;
+    padding: 100px;
+  }
+  /*rgba(255,0,0,0 represent nao representa uma cor, é transparente -Gabriel J*/
+  .section-header{
+    height: 350px;
+    width: 1330px;
+    background-image:linear-gradient(darkgreen,rgba(255,0,0,0));
+    margin-top: -30px;
+  }
+  .texto-main{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+  }
+  .listatimes{
+    background-color: red;
+    width:900px;
+    height:500px;
+  }
