@@ -23,11 +23,25 @@
             </div>
         </header>
         <section class="loginbox centerlogin">
-            <label for="username" name="username">Username: </label>
-            <input type="text" id="username"> <br>
-            <label for="password" name="password">Senha: </label>
-            <input type="password" id="password"> <br>
-            Em construcao
+            <section class="centerlogin loginboxin">
+                <br>
+                <form>
+            <label for="username" >Nome completo: </label>
+            <input type="text" id="username" name="username" placeholder="Rodrigo Madureira Mocellin" required> <br>
+            <label for="email" >Email: </label>
+            <input type="email" id="email" name="email" placeholder="MocellinRodrigo@hotmail.com" style="width: 190px;" required> <br>
+            <label for="password" >Senha: </label>
+            <input type="password" id="password" name="password" placeholder="Churrasquinhodomingou1980" style="width: 190px;" required> <br>
+            <label for="posicoes">Qual Posições voce joga?</label> <br>
+            <!--pqp odeio checkboxes -Gabriel J-->
+            <input type="checkbox" id="goleiro" name="goleiro"> <label for="goleiro">Goleiro</label>
+            <input type="checkbox" id="zagueiro" name="zagueiro"> <label for="zagueiro">Zagueiro</label>
+            <input type="checkbox" id="lateral" name="lateral"> <label for="lateral">Lateral</label>
+            <input type="checkbox" id="volante" name="volante"> <label for="volante">Volante</label>
+            <input type="checkbox" id="meiocamp" name="meiocamp"> <label for="meiocamp">Meio-Campeiro</label>
+            <br> <input type="submit" value="Submit">
+                </form>
+            </section>
         </section>
     </body>
 </html>

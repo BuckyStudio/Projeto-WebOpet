@@ -36,7 +36,7 @@ header{
     margin: auto;
     width: 50%;
     padding: 10px;
-    margin-top: 60px;
+    /*margin-top: 60px;*/
   }
   /*rgba(255,0,0,0 represent nao representa uma cor, é transparente -Gabriel J*/
   .section-header{
@@ -92,5 +92,14 @@ header{
     height: 1000px;
     width: 500px;
     border-radius: 20px;
-    padding: 20px;
+    /*padding: 20px;*/
+  }
+  .loginboxin{
+    background-color: wheat;
+    height: 940px;
+    width: 450px;
+    margin-top: 5px;
+    border-radius: 20px;
+    padding-top: 20px;
+    line-height: 1.6;
   }
